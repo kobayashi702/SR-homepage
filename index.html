@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standard Reel｜製造業向け動画制作</title>
+<meta name="description" content="製造現場を知っているから、伝わる動画が作れる。製造業向けに作業手順動画を制作しています。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="logo">KOBAYASHI</a>
+  <nav class="site-nav">
+    <a href="#works">WORKS</a>
+    <a href="#about">ABOUT</a>
+    <a href="#service">SERVICE</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section id="top" class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Manufacturing × Video Production</p>
+      <h1>製造現場を知っているから、<br>伝わる動画が作れる。</h1>
+      <p class="hero-sub">購買・海外拠点での新製品ライン立ち上げ——製造業の現場で10年。<br>「わかりやすい作業手順動画」を、現場目線で制作します。</p>
+      <a href="#contact" class="btn btn-primary">相談してみる</a>
+    </div>
+    <div class="hero-portrait">
+      <!-- 似顔絵はここに差し替えてください： images/portrait.png -->
+      <img src="images/portrait.png" alt="似顔絵イラスト" class="portrait-img" onerror="this.parentElement.classList.add('portrait-missing')">
+      <div class="portrait-placeholder-note">ここに似顔絵イラストが表示されます<br><code>images/portrait.png</code> を差し替えてください</div>
+    </div>
+  </section>
+
+  <!-- ===== WORKS ===== -->
+  <section id="works" class="works">
+    <div class="section-head">
+      <h2>WORKS</h2>
+      <p>これまで制作したショート動画です。</p>
+    </div>
+
+    <div class="works-grid">
+      <!-- 動画カードは videos/work01.mp4 〜 work07.mp4 を差し替えてください。タイトルとタグも自由に書き換えられます -->
+
+      <article class="work-card">
+        <video controls preload="metadata" poster="images/work01-poster.jpg">
+          <source src="videos/work01.mp4" type="video/mp4">
+        </video>
+        <div class="work-card-body">
+          <span class="work-tag">WORK 01</span>
+          <h3>ドリンクホルダーの販促・取付説明動画</h3>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <video controls preload="metadata" poster="images/work02-poster.jpg">
+          <source src="videos/work02.mp4" type="video/mp4">
+        </video>
+        <div class="work-card-body">
+          <span class="work-tag">WORK 02</span>
+          <h3>ミニハンディファン販促動画</h3>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <video controls preload="metadata" poster="images/work03-poster.jpg">
+          <source src="videos/work03.mp4" type="video/mp4">
+        </video>
+        <div class="work-card-body">
+          <span class="work-tag">WORK 03</span>
+          <h3>調味料販促動画</h3>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <video controls preload="metadata" poster="images/work04-poster.jpg">
+          <source src="videos/work04.mp4" type="video/mp4">
+        </video>
+        <div class="work-card-body">
+          <span class="work-tag">WORK 04</span>
+          <h3>動画タイトルを入力</h3>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <video controls preload="metadata" poster="images/work05-poster.jpg">
+          <source src="videos/work05.mp4" type="video/mp4">
+        </video>
+        <div class="work-card-body">
+          <span class="work-tag">WORK 05</span>
+          <h3>動画タイトルを入力</h3>
+        </div>
+      </article>
+
+
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="about-portrait">
+      <img src="images/portrait.png" alt="小林美奈の似顔絵イラスト" class="portrait-img-small" onerror="this.parentElement.classList.add('portrait-missing')">
+      <div class="portrait-placeholder-note">images/portrait.png</div>
+    </div>
+    <div class="about-text">
+      <h2>ABOUT</h2>
+      <p>製造業の現場で約10年、</p>
+      <p>購買や経営企画などに携わってきました。</p>
+      <p>その中でいつも感じていたのは、</p>
+      <p>分かりやすく伝えることの難しさです。</p>
+      <p>手順書を読んでも伝わらない。</p>
+      <p>口で説明しても人によって受け取り方が違う。</p>
+      <p>そんな場面を何度も見てきました。</p>
+      <p>だからこそ、動画という手段にたどり着きました。</p>
+      <p>今はフリーランスとして、現場の「伝わらない」を</p>
+      <p>一つひとつ解消していく仕事に取り組んでいます。</p>
+    </div>
+  </section>
+
+  <!-- ===== SERVICE ===== -->
+  <section id="service" class="service">
+    <div class="section-head">
+      <h2>SERVICE</h2>
+      <p>作業手順動画制作サービス</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <span class="service-tag">FOR</span>
+        <h3>製造業（中小企業）</h3>
+        <p>製造現場向けに、誰が見ても分かる作業手順動画を制作します。</p>
+      </div>
+      <div class="service-card">
+        <span class="service-tag">WHAT</span>
+        <h3>作業手順動画の制作</h3>
+        <p>現地取材から撮影・編集まで対応。確認テスト資料やマニュアル関連の整理もあわせて相談可能です。</p>
+      </div>
+      <div class="service-card">
+        <span class="service-tag">PRICE</span>
+        <h3>お問い合わせください</h3>
+        <p>案件の規模や本数によって変わるため、まずはお気軽にご相談ください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <h2>CONTACT</h2>
+    <p>作業手順動画の制作についてのご相談は、こちらのフォームからお願いします。</p>
+    <!-- お問い合わせフォーム -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE03C8UhmezQunBid7l3t6EnkuPhD__vyqmj5fU75oc5OnWA/viewform?usp=dialog" class="btn btn-primary" target="_blank" rel="noopener">お問い合わせフォームへ</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Mina Kobayashi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
